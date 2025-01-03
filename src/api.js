@@ -11,7 +11,7 @@ const customAPI = axios.create({
 
 // Add interceptor to handle CORS preflight
 customAPI.interceptors.request.use((config) => {
-    config.headers['Access-Control-Allow-Origin'] = 'https://e-commerce.vercel.app';
+    config.headers['Access-Control-Allow-Origin'] = 'https://e-commerce-self-seven.vercel.app/';
     return config;
 });
 
